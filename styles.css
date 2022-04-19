@@ -1,0 +1,155 @@
+body {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 20px;
+    background: url(https://i.pinimg.com/736x/ce/e6/68/cee6689b92191ea5e075513d2ed1b1ef.jpg);
+}
+
+img {
+    border: 3px outset white;
+}
+
+.container {
+    width: 95%;
+    height: 91.5%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    text-decoration: underline;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.text {
+    font-size: 18px;
+    width: 45%;
+    line-height: 150%;
+}
+
+.sidebar {
+    overflow: scroll;
+    float: left;
+    width: 150px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: 1px solid white;
+    background-color: black;
+    font-size: 20px;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    outline: 1px solid white;
+    background: url(https://i.imgur.com/cxNNmzH.jpeg);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home img {
+    margin-top: 26px;
+}
+
+#intro {
+    margin-top: 0px;
+    font-size: 20px;
+    width: 45%;
+    line-height: 150%;
+}
+
+.baby {
+    width: 20%;
+    height: 20%;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lion {
+    width: 40%;
+    height: 50%;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.paint {
+    width: 30%;
+    height: 40%;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skeleton {
+    width: 20%;
+    height: 30%;
+}
+
+.joker {
+    width: 30%;
+    height: 20%;
+}
+
+#cv {
+    width: 20%;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+#link {
+    padding-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.same_line {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+    padding-right: 10px;
+    margin-left: -25px;
+}
+
+#ufo {
+    width: 0%;
+    height: 0%;
+    border: none;
+}
